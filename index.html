@@ -48,8 +48,8 @@
         }
       </style> -->
 
-      <!-- Combinado descendente -->
-      <style>
+      <!-- Combinado Descendente -->
+      <!-- <style>
         body p{
           color: red;
         }
@@ -63,17 +63,22 @@
         body div span{
           background-color: dodgerblue;
         }
+      </style> -->
+
+      <!-- Combinado Hijo Directo -->
+      <style>
+        body > .title{
+          color: red;
+        }
       </style>
+
 
     </head>
     <body>
-      <p>SELECTORES</p>
-      <div>
-        <p>Prueba</p>
-        <span>Hola
-          <span>Ke</span>
-        </span>
-      </div>
-      <span>ase</span>
+      <h1 class="title">Hola</h1>
+      <main>
+        <h2 class="title">ke</h2>
+      </main>
+      <h3>ase</h3>
     </body>
 </html>
